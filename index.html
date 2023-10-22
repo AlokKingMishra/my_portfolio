@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alok's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resposive.css">
+    <script src="https://kit.fontawesome.com/d4ac7690ce.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="title">
+            <h1>
+                <a href="index.html"><p>A</p></a>LOk
+            </h1>
+        </div>
+        <NAV>
+            <ul>
+                <li>
+                    <a href="#About">About</a>
+                </li>
+                <li>
+                    <a href="#Skills">Skills</a>
+                </li>
+                <li>
+                    <a href="#Project">Project</a>
+                </li>
+                <li>
+                    <a href="#Contact">Contact</a>
+                </li>
+               
+            </ul>
+        </NAV>
+    </header>
+    <main>
+        <div class="intro">
+            <h1>Hi, <br>I am <span>Alok Mishra</span></h1>
+            <p>Computer Science <br>Student At NIE,Mysore</p>
+        </div>
+        <!-------about--------->
+        <div id="About">
+            <div class="container">
+                <div class="row">
+                    <div class="col1">
+                        <img src="alok.jpg" alt="" srcset="">
+                    </div>
+                    <div class="col2">
+                        <h1 class="sub-title">About</h1>
+                        <p>I am Alok, I like problem solving which involved concepts of DSA. I like to provide solutions through my coding skills. I am currently working on some projects which will be shortly displayed. I am intensely inspired from Bharat Ratna Shri Atal bihari vajpayee ji and Bharat Ratna APJ Abdul Kalam Ji. </p>
+                        <div class="tab-title">
+                            <p class="tab-links active-link" onclick="opentab('education')">Education</p>
+                            <p class="tab-links" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('hobbies')">Hobbies</p>
+                            <p class="tab-links" onclick="opentab('lang')">Languages</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="education">
+                            <ul>
+                                <li><span>MATRICULATION - (2018-2019)</span><br>International School, Patna</li>
+                                <li><span>SENIOR SECONDARY - (2019-2021)</span><br>Bradford International School, Patna</li>
+                                <li><span>BE-Computer Science And Engineering - (2021-2025)</span><br>NIE, Mysore</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="skills">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>Java Script</li>
+                                <li>DSA in C++</li>
+                                <li>DSA in C</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="hobbies">
+                            <ul>
+                                <li>CRICKET</li>
+                                <li>STORY TELLING</li>
+                                <li>HISTORY</li>
+                                <li>PHILOSOPHY</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="lang">
+                            <ul>
+                                <li>ENGLISH</li>
+                                <li>HINDI</li>
+                                <li>MAITHILI</li>
+                                <li>BASIC KANNADA</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="Skills">
+            <div class="container">
+                <h1 class="sub-title">Skills</h1>
+                <div class="skill-list">
+                    <div>
+                        <img src="development.png" alt="" srcset="">
+                        <h2>HTML, CSS and Java Script<h2>
+                    </div>
+                    <div>
+                        <img src="dsalogo.png" alt="" srcset="">
+                        <h2>Data Structures in C and C++<h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Project">
+            <div class="container">
+                <h1 class="sub-title">Projects</h1>
+                <div class="project-list">
+                    <div class="work">
+                        <img src="project1card.png" >
+                        <div class="layer">
+                            <h3>Crowd Fund Website</h3>
+                            <p>The Mastercraft Bamboo Monitor Riser is a sturdy and stylish platform that elevates your screen to a more comfortable viewing height. Placing your monitor at eye level has the potential to improve your posture and make you more comfortable while at work, helping you stay focused on the task at hand.<br>TECH used: JS,HTML,CSS</p>
+                            <a href="https://github.com/AlokKingMishra/crowdfund_website.git" rel="main"><i class="fa-solid fa-link"></i></a>
+                            <a href="projectimg.png"><i class="fa-solid fa-image"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="project2card.png" >
+                        <div class="layer">
+                            <h3>Parallax Website</h3>
+                            <p>An advanced HTML and CSS based project which helps to analyze about 3d animations and transitions in css.<br>TECH used: HTML,CSS</p>
+                            <a href="https://github.com/AlokKingMishra/parallax_website.git" rel="main"><i class="fa-solid fa-link"></i></a>
+                            <a href="parallax.png.jpg"><i class="fa-solid fa-image"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="Contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> Email : alokkingmishra1446@gmail.com </p>
+                    <p> <i class="fa-solid fa-phone"></i> Phone No : 8789285780</p>
+                    <a href="AlokResume.pdf" download class="btn">Download CV</a>
+                </div>
+                <div class="col-right">
+                    <h3>Social media</h3>
+                    <div class="social">
+                        <a href="https://github.com/AlokKingMishra" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://www.instagram.com/king_mishra_1446/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/alok-mishra-46344a230/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright reserved &copy; to Alok MIshra</p>
+    </footer>
+
+</body>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+</html>
